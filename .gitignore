@@ -1,0 +1,24 @@
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+data/auto.cnf data/binlog.000001 data/binlog.000002 data/binlog.000003 data/binlog.index data/ca-key.pem data/ca.pem data/client-cert.pem data/client-key.pem data/#ib_16384_0.dblwr data/#ib_16384_1.dblwr data/ib_buffer_pool data/ibdata1 data/ibtmp1 data/#innodb_redo data/#innodb_temp data/mysql data/mysql.ibd data/mysql.sock data/performance_schema data/private_key.pem data/public_key.pem data/rec data/server-cert.pem data/server-key.pem data/si data/sys data/undo_001 data/undo_002
+si_custom.log
+si_error.logdata
+data
+si_error.log
+redis/dump.rdb

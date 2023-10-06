@@ -1,0 +1,11 @@
+{
+    "name": "Crawl",
+    "alias": "crawl",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Crawl\\Providers\\CrawlServiceProvider"
+    ],
+    "files": []
+}
