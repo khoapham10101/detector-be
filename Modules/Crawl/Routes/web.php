@@ -11,6 +11,8 @@
 |
 */
 
-Route::prefix('crawl')->group(function() {
-    Route::get('/', 'CrawlController@index');
-});
+Route::prefix('crawl')->group(
+    function () {
+        Route::get('/', 'CrawlController@index');
+    }
+);

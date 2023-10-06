@@ -14,4 +14,5 @@ use Modules\Crawl\Http\Controllers\CrawlController;
 |
 */
 
-Route::get('/crawl', [CrawlController::class, 'crawlData'])->name('crawl_data');
+Route::post('/crawl', [CrawlController::class, 'crawlData'])->name('crawl_data');
+Route::post('/crawl-force', [CrawlController::class, 'forceCrawlData'])->name('force_crawl_data');

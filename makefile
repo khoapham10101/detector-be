@@ -27,5 +27,5 @@ restart:
 php:
 	docker-compose exec www bash
 
-# test:
-# 	docker-compose exec www bash -c "/var/www/html/vendor/bin/phpunit"
+test:
+	docker-compose exec www bash -c "/var/www/html/vendor/bin/phpunit"
